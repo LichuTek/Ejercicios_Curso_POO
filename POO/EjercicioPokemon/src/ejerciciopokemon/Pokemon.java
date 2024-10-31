@@ -3,12 +3,12 @@ package ejerciciopokemon;
 
 public abstract class Pokemon {
     
-    private int num_pokedex;
-    private String nombrePokemon;
-    private double pesoPokemon;
-    private String sexo;
-    private int temporadaQueAparece;
-    private String tipo;
+    protected int num_pokedex;
+    protected String nombrePokemon;
+    protected double pesoPokemon;
+    protected String sexo;
+    protected int temporadaQueAparece;
+    protected String tipo;
     
     
     public Pokemon(){}
@@ -23,10 +23,9 @@ public abstract class Pokemon {
     }
     
     
-    public double atacarPlacaje (){
-        danio = 60;
-        return danio;
-    }
+    protected abstract void atacarPlacaje ();
+    protected abstract void  atacarArañazo();
+    protected abstract void atacarMordizco();
     
     
     
