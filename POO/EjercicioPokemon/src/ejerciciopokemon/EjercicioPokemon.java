@@ -8,6 +8,17 @@ public class EjercicioPokemon {
 
 
     public static void main(String[] args) {
+        Pikachu pikachu = new Pikachu ();
+        Squirtle squirtle = new Squirtle ();
+        Bulbasaur bulbasaur = new Bulbasaur ();
+        Charmander charmander = new Charmander();
+
+        squirtle.atacarHidroBomba();
+        squirtle.atacarMordizco();
+        
+        charmander.atacarLanzallamas();
+        charmander.atacarMordizco();
+        
         
     }
     

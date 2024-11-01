@@ -11,7 +11,6 @@ package ejerciciopokemon;
 public interface IElectrico{
 
     public void atacarImpactrueno();
-    public void pueñoTrueno();
     public void atacarPunioTrueno();
     public void atacarRayoCarga();
  
